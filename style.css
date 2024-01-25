@@ -1,0 +1,163 @@
+
+
+.form-control {
+    border: 1px solid blue;
+}
+
+
+ .custom-carousel-control-prev,
+ .custom-carousel-control-next {
+   width: 4em;
+ }
+
+ .carousel-item {
+   position: relative;
+ }
+
+ .carousel-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding:65px;
+    width: 50% ; 
+    color: white; 
+ }
+
+ .carousel-title {
+   font-size: 1.5rem;
+ }
+
+ .carousel-description {
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+   
+    padding: 1px;
+    border-radius: 8px; 
+    max-width: 100%; 
+}
+
+ .carousel-text button {
+   font-size: 1rem; 
+ }
+ 
+
+
+.card-img-top{
+    max-width: 100%;
+  height: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-carousel-prev,
+    .custom-carousel-next {
+        margin-left: -8rem; 
+        margin-right: -6rem;
+    }
+
+
+    .image-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, rgba(14, 134, 247, 0.842) 0%, rgba(0, 0, 255, 0) 100%);
+        opacity: 0.7; 
+        pointer-events: none;
+    }
+
+    .content {
+        position: absolute;
+        top: 70%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+       
+        color: #fff; 
+    }
+
+    .content h2 {
+        font-size: 1.25em;
+      
+    }
+
+    .content p {
+        font-size: 0.75em;
+    }
+    .custom-card {
+        height: 300px; /* Ajustez la hauteur selon vos besoins */
+        object-fit: cover; /* Optionnel : assurez-vous que l'image couvre toute la hauteur définie */
+    }
+
+
+    .image-overlay {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff; 
+        text-align: center;
+    }
+
+    .rectangle-frame {
+        border: 2px solid #fff;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .email-text {
+        color: #fff; 
+        margin-bottom: 2px;
+    }
+
+    .image-overlay p{
+        font-size: 0.75rem;
+    }
+
+    .small-text {
+        font-size: 12px; 
+    }
+
+    .custom-frame {
+        border-top: 2px solid blue;
+        padding: 10px;
+    }
+    
+    .custom-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh; 
+    }
+    .custom-box {
+       
+        border: 2px solid #007BFF; 
+        border-radius: 40px;
+        padding: 7px;
+        text-align: center; 
+    }
+    .text-infor{
+
+font-size: 2rem;
+
+transform: translate(1%, -50%);
+    }
+
+    a.text-white {
+        text-decoration: none;
+      }
+
+      .background{
+        background-color: #0258ad;
+      }
+
+.margincss{
+    margin-left: 45rem;
+}
